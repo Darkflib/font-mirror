@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run mirror.py with fonts.txt",
+      "type": "shell",
+      "command": ". .venv/bin/activate && python mirror.py --fonts-file fonts.txt",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
